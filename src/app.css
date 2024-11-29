@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ActionBar {
+  background-color: #4A90E2;
+  color: white;
+}
+
+.input {
+  border-width: 1;
+  border-color: #E5E7EB;
+  padding: 12;
+  margin-bottom: 16;
+  border-radius: 8;
+}
+
+.btn {
+  border-radius: 8;
+  padding: 16;
+  margin-bottom: 8;
+  font-size: 16;
+}
+
+.btn-primary {
+  background-color: #4A90E2;
+  color: white;
+}
+
+.btn-link {
+  background-color: transparent;
+  color: #4A90E2;
+}
